@@ -1,9 +1,4 @@
 *.iml
 .idea
-/target/*
-/*.iml
-/build
-build
+
 target
-/logs/
-logs
