@@ -12,4 +12,12 @@ import java.util.List;
 public interface UserService {
 
     List<User> selectAll();
+
+    void addUser(User user);
+
+    User getOneUserById(Integer id);
+
+    void updateUser(User user);
+
+    void deleteUser(Integer id);
 }
